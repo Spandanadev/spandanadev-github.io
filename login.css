@@ -1,0 +1,149 @@
+body{
+    background-image:url("12.jpg");
+    background-size: cover;
+    background-position:relative;
+    
+}
+
+
+
+.box {
+    position: absolute;
+    top:10%;
+    left:37%;
+   width:350px;
+   height:450px;
+   padding:40px;
+    
+    background-color:rgba(255,255,255,0.8);   
+    
+
+}
+.box:before{
+    content:'';
+    position: absolute;
+    top:12%;
+    left:-2%;
+   width:-9px;
+   height:3px;
+   padding:19px;
+   padding-right:4px;
+   padding-left: 9px;
+  
+    background-color:#26598d;
+    
+}
+
+.box input{
+    width:350px;
+    height:40px;
+   
+}
+.box input[type="email"], .box input[type="password"]
+{
+    border:none;
+    background:transparent;
+    border-bottom: 1px solid rgb(173, 164, 164);
+}
+#p1{
+    color:red;
+    text-decoration: none;
+    text-align: center;
+}
+#p2{
+    color:rgb(0, 162, 255);
+    text-decoration:none;
+}
+.btn{
+    background-color:#3c5a99;
+    color:white;
+    width:160px;
+    height:35px;
+    border-radius: 7px;
+   
+border:none;
+font-size:13.5pt;
+
+}
+.btn1{
+    background-color:#eb4132;
+    color:white;
+    width:160px;
+    height:35px;
+    border-radius: 7px;
+border:none;
+float:right;
+font-size:13.5pt;
+
+}
+#p3{
+    background-color:green;
+    color:black;
+    border-radius: 7px;
+border:none;
+}
+.wrapper{
+    align-content:center;
+}
+@media only screen and (min-width:768px){
+    .wrapper{
+        align-content:center;
+    }
+    
+    .box{
+        width:350px;
+        height:450px;
+        padding:40px;
+        top:10%;
+        left:37%;
+       
+    }
+
+    .btn{
+        
+        width:160px;
+        height:35px;
+  
+ 
+    
+    }
+    .btn1{
+       
+        width:160px;
+        height:35px;
+    float:right;
+   
+    }     
+  
+}
+@media only screen and (min-width:1000px){
+    .wrapper{
+        align-content:center;
+    }
+    .box{
+        width:350px;
+        height:450px;
+        padding:40px;
+        top:10%;
+        left:37%;
+    }
+    
+    .btn{
+        
+        width:160px;
+        height:35px;
+       
+       
+    border:none;
+    
+    }
+    .btn1{
+       
+        width:160px;
+        height:35px;
+        border-radius: 7px;
+    border:none;
+    float:right;
+   
+    } 
+}

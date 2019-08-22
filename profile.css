@@ -1,0 +1,82 @@
+body{
+    background-image: url("12.jpg");
+    margin:0;
+    padding:0;
+    background-size:cover;
+}
+.box{
+    position: absolute;
+    top:6%;
+    left:35%;
+   width:350px;
+   height:450px;
+   padding-left:40px;
+   padding-right:40px;
+   padding-bottom:40px;
+  
+    background-color:rgba(255,255,255,0.8)
+}
+.box input[type="text"], .box input[type="email"]
+{
+    border:none;
+    background:transparent;
+    border-bottom: 1px solid black;
+    height:40px;
+}
+#p1
+{
+    border:none;
+    border-bottom: 1px solid black;
+ background:transparent;
+}
+#p2{
+    width:360px;
+}
+.btn{
+    
+    border:none;
+    background:transparent;
+    width:50px;
+    height: 30px;
+    font-size:20px;
+    color:rgb(160, 156, 156);
+}
+.btn1{
+    
+    border:none;
+    background:transparent;
+    width:50px;
+    height: 30px;
+    font-size:20px;
+    margin-left:18px;
+    color:rgb(160, 156, 156);
+}
+#p22{
+    float:right;
+    border:none;
+    background-color: green;
+    color:white;
+    height:30px;
+    width:167px;
+    
+}
+.btn:hover{
+    color:rgb(60, 206, 243);
+}
+.btn1:hover{
+    color:pink;
+}
+#p22:hover{
+    background-color:rgb(2, 61, 2);
+}
+#img {
+  position: absolute;
+    top: 15%;
+    left:55%;
+    width: 75px;
+    height: auto;
+    padding-left:0px;
+    padding-top:10px;
+    
+}
+
